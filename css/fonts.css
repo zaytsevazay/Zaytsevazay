@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Georgia.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../fonts/Georgia.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../fonts/Georgia.woff') format('woff'), /* Pretty Modern Browsers */
+	url('../fonts/Georgia.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../fonts/Georgia.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
