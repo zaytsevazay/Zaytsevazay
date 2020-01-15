@@ -60,7 +60,6 @@ a, a:hover, a:focus, a:active
 input {
   max-width: 280px;
   width: 100%;
-  border: 1px solid #f9f9ff;
 }
 
 img {
@@ -266,7 +265,7 @@ padding: 40px 0;
   content: url('..//img/feedback-bg.png');
   position: absolute;
   bottom: -250px;
-  left: -50px;
+  left: -100px;
   z-index: -1;
 }
 
@@ -327,7 +326,6 @@ textarea {
   min-height: 113px;
   font-size: 14px;
   line-height: 20px;
-  border: 1px solid #f9f9ff;
   background-color: #f9f9ff;
   border-radius: 5px;
   padding: 11px 0 0 13px;
@@ -366,14 +364,6 @@ textarea:focus::-webkit-input-placeholder {color:#000;}
 textarea:focus::-moz-placeholder {color:#000;}
 textarea:focus:-moz-placeholder {color:#000;}
 textarea:focus:-ms-input-placeholder {color:#000;}
-
-input:focus {
-  border: 1px solid #000;
-}
-
-textarea:focus {
-  border: 1px solid #000;
-}
 
 .order:before {
   content: url('..//img/plane.png');
